@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *textField;
+
+- (IBAction)loginButtonPressed:(id)sender;
+- (IBAction)likeButtonPressed:(id)sender;
 
 @end
